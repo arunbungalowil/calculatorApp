@@ -1,5 +1,5 @@
 ## Calculator App
-This project is a simple calculator web application built using HTML, CSS, and JavaScript.
+This project is a simple calculator web application built using HTML, CSS, and JavaScript hosted in netlify.com ( sim-calc.netlify.app).
 
 ### Features
 - Addition, subtraction, multiplication, and division operations.
