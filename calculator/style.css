@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    padding: 0p;
+    background-color: black;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.output{
+    background-color:rgb(120 115 115);
+    margin: 5px ;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: flex-end;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+.output-display{
+    margin-right: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3rem;
+    color: white;
+}
+
+.input{
+    
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    height: 65vh;
+}
+.btn{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+    color:#ffffff;
+    margin: 5px;
+    padding: 1rem;
+    border: none;
+    border-radius: 50px;
+    flex: 1 1 calc(25% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn-blue{
+    background-color: #203be5fc;
+}
+.btn-blue:hover{
+    background-color: #2a378dfc
+}
+.btn-dark{
+    background-color: #787373cc;
+}
+.btn-dark:hover{
+    background-color: #625a5acc
+}
+.btn-light{
+    background-color: #c9bebecc;
+
+}
+.btn-light:hover{
+    background-color:#8f8686cc
+
+}
+
+@media (max-width: 768px) {
+    .output{
+        height: 20vh;
+
+    }
+    .output-display{
+        font-size: 3rem;
+    }
+    .btn {
+        font-size: 40px;
+        font-weight: 900;
+        padding: 1px;
+        margin: 10px;
+        width: calc(25% - 40px);
+        height: calc(20% - 40px);
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .output {
+        height: 30vh;
+    }
+
+    .output-display {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 25px;
+        padding: 1px;
+        margin: 8px;
+        width: calc(25% - 16px);
+        height: calc(16% - 32px);
+        border-radius: 50%;
+    }
+ }
+
